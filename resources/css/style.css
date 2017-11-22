@@ -8,6 +8,7 @@ body {
   margin: 0;
 }
 
+/* Header CSS */
 header {
   display: flex;
   height: 69px;
@@ -35,4 +36,31 @@ a {
 
 nav span {
   padding: 20px 10px;
+}
+/* End header CSS */
+
+#featured {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+  flex-wrap: wrap;
+}
+
+.featuredText {
+  margin: auto;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+}
+
+.featuredText h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+.featuredText h4 {
+  margin: 0;
+  padding: 10px;
 }
